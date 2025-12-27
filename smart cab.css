@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+}
+.home-page {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+nav {
+    background: #1e90ff;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}    
+.hero {
+    padding: 50px;
+    text-align: center;
+    background: #f0f4f8;
+}
+button{
+    background: #1e90ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0b73d3;
+}
+form {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0);
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+h2{
+    color: #1e90ff;
+}
+.about-section {
+    max-width: 600px;
+    margin: 20 px auto;
+    padding: 20px;
+    background: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+}
+.about-section h2, .about-section h3 {
+    color: #1e90ff;
+}
+.about-section ul{
+    list-style: none;
+    padding: 0;
+}
+.about-section li {
+    margin: 8px 0;
+}
+
+
+.book-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.ride-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0;
+}
+.ride-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+input [type="radio"]:checked + .ride-card{
+    border-color: #1e90ff;
+    background: #eef;
+}
+.ride-card h4{
+    margin: 0;
+    color: #1e90ff;
+}
+.help-page {
+    background: #2c3e50;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.help-section {
+     max-width: 600px;
+     margin: 20px auto;
+     padding: 20px;
+}
+
+.help-card {
+    background: #34495e;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+     
+}
+.help-card h3 {
+    color: #1e90ff;
+    margin: 0;
+}
+.help-card a {
+    columns: #1abc9c;
+    text-decoration: none;
+}
+.help-card a:hover {
+    text-decoration: underline;
+}
+.help-section h2 {
+    text-align: center;
+    color: #1e90ff;
+}

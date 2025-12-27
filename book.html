@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ride</title>
+    <link rel="stylesheet" href="smart cab.css">
+</head>
+<body>
+    <nav>
+        <h1>Smart Cab</h1>
+        <a href="Smart cab.html">Home</a>
+        <a href="book.html">Book</a>
+        <a href="about.html">About</a>
+        <a href="help.html">Help</a>
+    </nav>
+    <form action="status.html">
+        <input type="text" placeholder="Pickup Location" required>
+        <input type="text" placeholder="Drop Location"required>
+        <h3>Choose Ride Type</h3>
+        <div class="ride-options">
+            <label>
+                <input type="radio" name="ride" value="economy" checked>
+                <div class="ride-card">
+                    <h4>Economy</h4>
+                    <p>CFA 500/Km, 4-seater ,basic AC </p>
+                    <p>Ideal for solo trips or small groups</p>
+                </div>
+            </label>
+            <label><input type="radio" name="ride" value="premium">
+                <div class="ride-card">
+                    <h4>Premium</h4>
+                    <p>CFA 800/Km , 4-seater , premium AC + Leather </p>
+                    <p>Comfort for business or special occasions.</p>
+                </div>
+            </label>
+            <label>
+                <input type="radio" name="ride" value="luxury">
+                <div class="ride-card">
+                    <h4>Luxury</h4>
+                    <p>CFA 1,200/km , 6-seater , Luxury + WiFi</p>
+                    <p>VIP treatment for groups or events</p>
+                </div>
+            </label>
+            <p><strong>NB:</strong>All rides offer good music and an opportunity for every user to suggest their choice</p>
+        </div>
+        <button type="submit">Book Ride</button>
+    </form>
+    
+
+</body>
+</html>
